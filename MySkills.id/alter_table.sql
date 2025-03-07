@@ -52,7 +52,7 @@ VALUES
     ("A1001", "Mali, Ph.d", "Teknik Industri"),
     ("A1002", "Dr. Margaretha", "Matematika"),
     ("A1003", "Adi, S.E., MBA", "Manajemen"),
-    ("A1004", "dr. Lutfi Sp.PD", "Kedokteran");
+    ("A1004", "dr. Nadia Sp.A", "Kedokteran");
 
 -- TAMPILKAN DATA DOSEN
 SELECT * FROM dosen;
