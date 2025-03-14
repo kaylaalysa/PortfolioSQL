@@ -193,6 +193,11 @@ WITH cte_avg_price AS (
 SELECT * FROM cte_avg_price WHERE rerata>500;
 
 -- 7. Temukan pelanggan yang telah membuat setidaknya satu pesanan dengan total jumlah lebih dari $1000!
+SELECT * FROM customers 
+WHERE customer_id IN (
+    SELECT customer_id FROM orders WHERE total_amount > 1000
+);
+
 
 
 
